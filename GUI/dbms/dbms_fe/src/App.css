@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
+  color: #333;
+  display: flex;
+  justify-content: center
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.dashboard {
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.card h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  color: #0056b3;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f6f8;
+  font-weight: 600;
+  text-align: left;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Small Cards for Metrics */
+.small-cards-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.small-card {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.small-card .metric {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin: 1rem 0;
+}
+
+.small-card ol {
+  padding-left: 0;
+  list-style-position: inside;
+  text-align: center;
+}
+
+.small-card li {
+  font-size: 1.1rem;
+  padding: 5px 0;
+}
+
+.small-card li span {
+  color: #666;
+  font-size: 0.9rem;
+}
