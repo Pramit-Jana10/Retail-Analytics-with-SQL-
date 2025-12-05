@@ -1,6 +1,4 @@
-Name-Pramit Jana IoT-54 
-
-# DBMS Backend API
+ # DBMS Backend API
 
 A Node.js Express backend server for database management system with PostgreSQL (Neon) integration.
 
